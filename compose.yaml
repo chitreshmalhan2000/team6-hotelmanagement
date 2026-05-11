@@ -1,0 +1,7 @@
+﻿services:
+  hotelmanagement.api:
+    image: hotelmanagement.api
+    build:
+      context: .
+      dockerfile: HotelManagement.API/Dockerfile
+
