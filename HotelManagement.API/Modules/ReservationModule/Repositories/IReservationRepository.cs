@@ -1,0 +1,10 @@
+using HotelManagement.Common.Models;
+
+namespace HotelManagement.API.Modules.ReservationModule.Repositories;
+
+public interface IReservationRepository
+{
+    Task<Reservation?> GetReservationByIdAsync(int reservationId);
+    Task<Reservation> CreateReservationAsync(Reservation reservation);
+    Task<bool> HasReservationDateConflictAsync(int roomId, DateOnly checkIn, DateOnly checkOut);
+}
