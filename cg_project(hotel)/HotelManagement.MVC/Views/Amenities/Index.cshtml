@@ -1,0 +1,29 @@
+@model List<HotelManagement.MVC.ViewModels.AmenityViewModel>
+@{
+    ViewData["Title"] = "Amenities";
+}
+
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2>Amenities</h2>
+    <a class="btn btn-success" asp-action="Create">Add Amenity</a>
+</div>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.AmenityId</td>
+            <td>@item.Name</td>
+            <td>@item.Description</td>
+        </tr>
+    }
+    </tbody>
+</table>

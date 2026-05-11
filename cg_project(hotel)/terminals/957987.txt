@@ -1,0 +1,496 @@
+---
+pid: 23972
+cwd: "C:\\Users\\DELL\\.cursor\\projects\\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930"
+command: "dotnet add HotelManagement.DAL/HotelManagement.DAL.csproj package Microsoft.EntityFrameworkCore.SqlServer; dotnet add HotelManagement.DAL/HotelManagement.DAL.csproj package Microsoft.EntityFrameworkCore.Design; dotnet add HotelManagement.DAL/HotelManagement.DAL.csproj package Microsoft.EntityFrameworkCore.Tools; dotnet add HotelManagement.API/HotelManagement.API.csproj package Microsoft.AspNetCore.Authentication.JwtBearer; dotnet add HotelManagement.API/HotelManagement.API.csproj package Swashbuckle.AspNetCore; dotnet add HotelManagement.API/HotelManagement.API.csproj package Microsoft.EntityFrameworkCore.Design"
+started_at: 2026-05-07T10:40:04.294Z
+running_for_ms: 50026    
+---
+info : X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+info : X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+info : Adding PackageReference for package 'Microsoft.EntityFrameworkCore.SqlServer' into project 'HotelManagement.DAL/HotelManagement.DAL.csproj'.
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/index.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/index.json 1689ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/0.0.1-alpha/3.1.2.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/0.0.1-alpha/3.1.2.json 263ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/3.1.3/6.0.0-preview.6.21352.1.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/3.1.3/6.0.0-preview.6.21352.1.json 256ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/6.0.0-preview.7.21378.4/7.0.17.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/6.0.0-preview.7.21378.4/7.0.17.json 257ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/7.0.18/10.0.0-preview.1.25081.1.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/7.0.18/10.0.0-preview.1.25081.1.json 768ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/10.0.0-preview.2.25163.8/11.0.0-preview.3.26207.106.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.sqlserver/page/10.0.0-preview.2.25163.8/11.0.0-preview.3.26207.106.json 287ms
+info : Restoring packages for C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\HotelManagement.DAL.csproj...
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlserver/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlserver/index.json 114ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlserver/10.0.7/microsoft.entityframeworkcore.sqlserver.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.sqlserver/10.0.7/microsoft.entityframeworkcore.sqlserver.10.0.7.nupkg 30ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/index.json 97ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/index.json 90ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/index.json 134ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/10.0.7/microsoft.extensions.configuration.abstractions.10.0.7.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/10.0.7/microsoft.extensions.caching.memory.10.0.7.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/10.0.7/microsoft.entityframeworkcore.relational.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/index.json 127ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/10.0.7/microsoft.extensions.logging.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.configuration.abstractions/10.0.7/microsoft.extensions.configuration.abstractions.10.0.7.nupkg 32ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient/index.json 181ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/10.0.7/microsoft.extensions.caching.memory.10.0.7.nupkg 54ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient/6.1.1/microsoft.data.sqlclient.6.1.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.relational/10.0.7/microsoft.entityframeworkcore.relational.10.0.7.nupkg 63ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/10.0.7/microsoft.extensions.logging.10.0.7.nupkg 86ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient/6.1.1/microsoft.data.sqlclient.6.1.1.nupkg 81ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/index.json 71ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/10.0.7/microsoft.entityframeworkcore.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore/10.0.7/microsoft.entityframeworkcore.10.0.7.nupkg 36ms
+info :   GET https://api.nuget.org/v3-flatcontainer/azure.core/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/azure.identity/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.bcl.cryptography/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/9.0.4/microsoft.extensions.caching.memory.9.0.4.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient.sni.runtime/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.jsonwebtokens/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols.openidconnect/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.configuration.configurationmanager/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.pkcs/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.memory/9.0.4/microsoft.extensions.caching.memory.9.0.4.nupkg 45ms
+info :   OK https://api.nuget.org/v3-flatcontainer/azure.core/index.json 62ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient.sni.runtime/index.json 55ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.bcl.cryptography/index.json 61ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/azure.core/1.47.1/azure.core.1.47.1.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient.sni.runtime/6.0.2/microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.bcl.cryptography/9.0.4/microsoft.bcl.cryptography.9.0.4.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/index.json 57ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/10.0.7/microsoft.extensions.caching.abstractions.10.0.7.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.analyzers/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols.openidconnect/index.json 121ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.bcl.cryptography/9.0.4/microsoft.bcl.cryptography.9.0.4.nupkg 53ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.configuration.configurationmanager/index.json 113ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/index.json 87ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols.openidconnect/7.7.1/microsoft.identitymodel.protocols.openidconnect.7.7.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.pkcs/index.json 116ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/10.0.7/microsoft.extensions.dependencyinjection.abstractions.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/index.json 53ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.pkcs/9.0.4/system.security.cryptography.pkcs.9.0.4.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.configuration.configurationmanager/9.0.4/system.configuration.configurationmanager.9.0.4.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/10.0.7/microsoft.extensions.dependencyinjection.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/index.json 89ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/index.json 110ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols.openidconnect/7.7.1/microsoft.identitymodel.protocols.openidconnect.7.7.1.nupkg 55ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/10.0.7/microsoft.extensions.logging.abstractions.10.0.7.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/10.0.7/microsoft.extensions.primitives.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/10.0.7/microsoft.extensions.dependencyinjection.abstractions.10.0.7.nupkg 57ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.abstractions/index.json 100ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.pkcs/9.0.4/system.security.cryptography.pkcs.9.0.4.nupkg 57ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.abstractions/10.0.7/microsoft.entityframeworkcore.abstractions.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/10.0.7/microsoft.extensions.logging.abstractions.10.0.7.nupkg 26ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/index.json 144ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.analyzers/index.json 114ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/10.0.7/microsoft.extensions.options.10.0.7.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.analyzers/10.0.7/microsoft.entityframeworkcore.analyzers.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.data.sqlclient.sni.runtime/6.0.2/microsoft.data.sqlclient.sni.runtime.6.0.2.nupkg 173ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.jsonwebtokens/index.json 250ms
+info :   OK https://api.nuget.org/v3-flatcontainer/azure.core/1.47.1/azure.core.1.47.1.nupkg 187ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.jsonwebtokens/7.7.1/microsoft.identitymodel.jsonwebtokens.7.7.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.abstractions/10.0.7/microsoft.entityframeworkcore.abstractions.10.0.7.nupkg 69ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.analyzers/10.0.7/microsoft.entityframeworkcore.analyzers.10.0.7.nupkg 62ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.caching.abstractions/10.0.7/microsoft.extensions.caching.abstractions.10.0.7.nupkg 209ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/10.0.7/microsoft.extensions.dependencyinjection.10.0.7.nupkg 151ms
+info :   OK https://api.nuget.org/v3-flatcontainer/azure.identity/index.json 386ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/10.0.7/microsoft.extensions.options.10.0.7.nupkg 136ms
+info :   GET https://api.nuget.org/v3-flatcontainer/azure.identity/1.14.2/azure.identity.1.14.2.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.jsonwebtokens/7.7.1/microsoft.identitymodel.jsonwebtokens.7.7.1.nupkg 132ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/10.0.7/microsoft.extensions.primitives.10.0.7.nupkg 204ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.configuration.configurationmanager/9.0.4/system.configuration.configurationmanager.9.0.4.nupkg 254ms
+info :   OK https://api.nuget.org/v3-flatcontainer/azure.identity/1.14.2/azure.identity.1.14.2.nupkg 60ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.clientmodel/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/azure.core/1.46.1/azure.core.1.46.1.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identity.client/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/azure.core/1.46.1/azure.core.1.46.1.nupkg 31ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identity.client.extensions.msal/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.tokens/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identity.client/index.json 43ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identity.client/4.73.1/microsoft.identity.client.4.73.1.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.diagnostics.eventlog/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.clientmodel/index.json 103ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.protecteddata/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.clientmodel/1.5.1/system.clientmodel.1.5.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/index.json 48ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/7.7.1/system.identitymodel.tokens.jwt.7.7.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols/index.json 77ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identity.client/4.73.1/microsoft.identity.client.4.73.1.nupkg 66ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols/7.7.1/microsoft.identitymodel.protocols.7.7.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.clientmodel/1.5.1/system.clientmodel.1.5.1.nupkg 41ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identity.client.extensions.msal/index.json 113ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identity.client.extensions.msal/4.73.1/microsoft.identity.client.extensions.msal.4.73.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.diagnostics.eventlog/index.json 69ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.diagnostics.eventlog/9.0.4/system.diagnostics.eventlog.9.0.4.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols/7.7.1/microsoft.identitymodel.protocols.7.7.1.nupkg 42ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.tokens/index.json 154ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/7.7.1/system.identitymodel.tokens.jwt.7.7.1.nupkg 68ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.tokens/7.7.1/microsoft.identitymodel.tokens.7.7.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.protecteddata/index.json 167ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.security.cryptography.protecteddata/9.0.4/system.security.cryptography.protecteddata.9.0.4.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.security.cryptography.protecteddata/9.0.4/system.security.cryptography.protecteddata.9.0.4.nupkg 28ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.diagnostics.eventlog/9.0.4/system.diagnostics.eventlog.9.0.4.nupkg 233ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.tokens/7.7.1/microsoft.identitymodel.tokens.7.7.1.nupkg 197ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identity.client.extensions.msal/4.73.1/microsoft.identity.client.extensions.msal.4.73.1.nupkg 355ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.logging/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.logging/index.json 45ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.logging/7.7.1/microsoft.identitymodel.logging.7.7.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.logging/7.7.1/microsoft.identitymodel.logging.7.7.1.nupkg 46ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.abstractions/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.abstractions/index.json 40ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.abstractions/7.7.1/microsoft.identitymodel.abstractions.7.7.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.abstractions/7.7.1/microsoft.identitymodel.abstractions.7.7.1.nupkg 37ms
+info : Installed Microsoft.IdentityModel.Protocols 7.7.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.protocols\7.7.1 with content hash h+fHHBGokepmCX+QZXJk4Ij8OApCb2n2ktoDkNX5CXteXsOxTHMNgjPGpAwdJMFvAL7TtGarUnk3o97NmBq2QQ==.
+info : Installed Azure.Identity 1.14.2 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\azure.identity\1.14.2 with content hash YhNMwOTwT+I2wIcJKSdP0ADyB2aK+JaYWZxO8LSRDm5w77LFr0ykR9xmt2ZV5T1gaI7xU6iNFIh/yW1dAlpddQ==.
+info : Installed Microsoft.IdentityModel.Logging 7.7.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.logging\7.7.1 with content hash BZNgSq/o8gsKExdYoBKPR65fdsxW0cTF8PsdqB8y011AGUJJW300S/ZIsEUD0+sOmGc003Gwv3FYbjrVjvsLNQ==.
+info : Installed Microsoft.IdentityModel.Protocols.OpenIdConnect 7.7.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.protocols.openidconnect\7.7.1 with content hash yT2Hdj8LpPbcT9C9KlLVxXl09C8zjFaVSaApdOwuecMuoV4s6Sof/mnTDz/+F/lILPIBvrWugR9CC7iRVZgbfQ==.
+info : Installed System.IdentityModel.Tokens.Jwt 7.7.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.identitymodel.tokens.jwt\7.7.1 with content hash rQkO1YbAjLwnDJSMpRhRtrc6XwIcEOcUvoEcge+evurpzSZM3UNK+MZfD3sKyTlYsvknZ6eJjSBfnmXqwOsT9Q==.
+info : Installed Microsoft.Extensions.DependencyInjection 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.dependencyinjection\10.0.7 with content hash 91F/o3emPV/+xY/ip3s2LqDNF14kjttlVtq0BXgg6p4MnCzeSZxnUJm+t6WRrtD3JdGo88/oX+z7OwK4y8PZuw==.
+info : Installed System.ClientModel 1.5.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.clientmodel\1.5.1 with content hash k2jKSO0X45IqhVOT9iQB4xralNN9foRQsRvXBTyRpAVxyzCJlG895T9qYrQWbcJ6OQXxOouJQ37x5nZH5XKK+A==.
+info : Installed Microsoft.IdentityModel.Abstractions 7.7.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.abstractions\7.7.1 with content hash S7sHg6gLg7oFqNGLwN1qSbJDI+QcRRj8SuJ1jHyCmKSipnF6ZQL+tFV2NzVfGj/xmGT9TykQdQiBN+p5Idl4TA==.
+info : Installed Microsoft.Extensions.DependencyInjection.Abstractions 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\10.0.7 with content hash Z6mfFEaFcwCfSboxJwOLfu7/31npCY9q70WUamHW/vRQhDvBKOT4Vf9YkZj5J6hLvJpb0oDEYfHunQZj0xxvKw==.
+info : Installed Microsoft.EntityFrameworkCore 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.entityframeworkcore\10.0.7 with content hash G6yclVO5/csPzzsymV0SemY2NDqE31CP5M3jprF5IuO9wJsh4aUOfYD8HCLuDmM1D1CfReegVic48O2r79d46Q==.
+info : Installed Microsoft.Extensions.Logging.Abstractions 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.logging.abstractions\10.0.7 with content hash tIEcQ2gvERrH2KiCjdsVcHGhXt9lIsuDStfOIeZWr7/fP8IXhGiYfx0/80PNI7WPO2IYuFtlZLSlnTS8+/Mchw==.
+info : Installed Microsoft.Extensions.Configuration.Abstractions 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.configuration.abstractions\10.0.7 with content hash t56nEgvECcyLPojZIUFWJknQQDAbgfTf9J+QMYJE1YYvVgz69vN6B/AKL8Grvj3Lcnp8kTpNqwmwFhb3YLJmtQ==.
+info : Installed Azure.Core 1.47.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\azure.core\1.47.1 with content hash oPcncSsDHuxB8SC522z47xbp2+ttkcKv2YZ90KXhRKN0YQd2+7l1UURT9EBzUNEXtkLZUOAB5xbByMTrYRh3yA==.
+info : Installed Microsoft.IdentityModel.Tokens 7.7.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.tokens\7.7.1 with content hash fQ0VVCba75lknUHGldi3iTKAYUQqbzp1Un8+d9cm9nON0Gs8NAkXddNg8iaUB0qi/ybtAmNWizTR4avdkCJ9pQ==.
+info : Installed Microsoft.Data.SqlClient 6.1.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.data.sqlclient\6.1.1 with content hash syGQmIUPAYYHAHyTD8FCkTNThpQWvoA7crnIQRMfp8dyB5A2cWU3fQexlRTFkVmV7S0TjVmthi0LJEFVjHo8AQ==.
+info : Installed Microsoft.Identity.Client.Extensions.Msal 4.73.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identity.client.extensions.msal\4.73.1 with content hash xDztAiV2F0wI0W8FLKv5cbaBefyLD6JVaAsvgSN7bjWNCzGYzHbcOEIP5s4TJXUpQzMfUyBsFl1mC6Zmgpz0PQ==.
+info : Installed Microsoft.Extensions.Caching.Memory 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.caching.memory\10.0.7 with content hash 6eULH/sc97yfCEV31g7AgUzHc7dIm0DGBcofoE8GgBaXbdAPPhathN8rYcgi1TSiG1QucCdqKiVNaDEPAEXL5Q==.
+info : Installed System.Security.Cryptography.ProtectedData 9.0.4 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.security.cryptography.protecteddata\9.0.4 with content hash o94k2RKuAce3GeDMlUvIXlhVa1kWpJw95E6C9LwW0KlG0nj5+SgCiIxJ2Eroqb9sLtG1mEMbFttZIBZ13EJPvQ==.
+info : Installed Microsoft.Data.SqlClient.SNI.runtime 6.0.2 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.data.sqlclient.sni.runtime\6.0.2 with content hash f+pRODTWX7Y67jXO3T5S2dIPZ9qMJNySjlZT/TKmWVNWe19N8jcWmHaqHnnchaq3gxEKv1SWVY5EFzOD06l41w==.
+info : Installed System.Diagnostics.EventLog 9.0.4 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.diagnostics.eventlog\9.0.4 with content hash getRQEXD8idlpb1KW56XuxImMy0FKp2WJPDf3Qr0kI/QKxxJSftqfDFVo0DZ3HCJRLU73qHSruv5q2l5O47jQQ==.
+info : Installed Azure.Core 1.46.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\azure.core\1.46.1 with content hash iE5DPOlGsN5kCkF4gN+vasN1RihO0Ypie92oQ5tohQYiokmnrrhLnee+3zcE8n7vB6ZAzhPTfUGAEXX/qHGkYA==.
+info : Installed Microsoft.EntityFrameworkCore.Analyzers 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.entityframeworkcore.analyzers\10.0.7 with content hash eZnMyiJzo249Ejg5CaFScvJS0u7neQfS9DXknAHTO6FHVMM99gO0byNXHGZmA/BOkZ13ngeVziQLHTMOtgescg==.
+info : Installed System.Security.Cryptography.Pkcs 9.0.4 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.security.cryptography.pkcs\9.0.4 with content hash cUFTcMlz/Qw9s90b2wnWSCvHdjv51Bau9FQqhsr4TlwSe1OX+7SoXUqphis5G74MLOvMOCghxPPlEqOdCrVVGA==.
+info : Installed Microsoft.Extensions.Primitives 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.primitives\10.0.7 with content hash D5M0Jr551iTgwkZMN9rm0pSkgNLj5quUWQUmQPMZh7k/bnvZTnXRGfE2KuvXf1EEjt/ofD9yw9IumpgdP9QCnw==.
+info : Installed Microsoft.EntityFrameworkCore.Abstractions 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.entityframeworkcore.abstractions\10.0.7 with content hash TuxExnfIS/bSq3z2CbH0LwZH1oyj9iHhSGneU4fpxl3ikjZGZdSae9gcfnImV1rufH8f/ab1NnHwyL2BLyeZOg==.
+info : Installed Microsoft.Extensions.Caching.Abstractions 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.caching.abstractions\10.0.7 with content hash pUDgQKEqNUFlerDIFRg7zzoDVRPEWIG7nR40h8Gzg8RXza4Ry0lWZ7u91bmwu3iUDCxw3Dv6TLHVFoAgY0gy7Q==.
+info : Installed Microsoft.IdentityModel.JsonWebTokens 7.7.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.jsonwebtokens\7.7.1 with content hash 3Izi75UCUssvo8LPx3OVnEeZay58qaFicrtSnbtUt7q8qQi0gy46gh4V8VUTkMVMKXV6VMyjBVmeNNgeCUJuIw==.
+info : Installed Microsoft.EntityFrameworkCore.SqlServer 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.entityframeworkcore.sqlserver\10.0.7 with content hash jci/dpjLIZyrp0Kbt0kr1lh+7BXbJ3wNk+vTwS/Se65grEJSBC+eE2UAQsi/xSNB5lHP2dysyOMHugkpFwQwNA==.
+info : Installed Microsoft.Extensions.Caching.Memory 9.0.4 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.caching.memory\9.0.4 with content hash G5rEq1Qez5VJDTEyRsRUnewAspKjaY57VGsdZ8g8Ja6sXXzoiI3PpTd1t43HjHqNWD5A06MQveb2lscn+2CU+w==.
+info : Installed Microsoft.Bcl.Cryptography 9.0.4 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.bcl.cryptography\9.0.4 with content hash YgZYAWzyNuPVtPq6WNm0bqOWNjYaWgl5mBWTGZyNoXitYBUYSp6iUB9AwK0V1mo793qRJUXz2t6UZrWITZSvuQ==.
+info : Installed Microsoft.EntityFrameworkCore.Relational 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.entityframeworkcore.relational\10.0.7 with content hash midwPufIwXhOJcVhaZpCZGNbjy2QoPfHI+70nw2dGcoULEW9DybMvMPYkRjOJV0eI46a1oVFhU4lFYDEx6YUbg==.
+info : Installed System.Configuration.ConfigurationManager 9.0.4 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.configuration.configurationmanager\9.0.4 with content hash dvjqKp+2LpGid6phzrdrS/2mmEPxFl3jE1+L7614q4ZChKbLJCpHXg6sBILlCCED1t//EE+un/UdAetzIMpqnw==.
+info : Installed Microsoft.Extensions.Logging 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.logging\10.0.7 with content hash hOeRIQ63GkgiYCB/MIFp+LQs8aXpJXpB55t6Aj37ab7t2/6WeFcPXxYM9hdy/o5tffzwf8mhqzLJP6mjGYCxjw==.
+info : Installed Microsoft.Extensions.Options 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.options\10.0.7 with content hash 00SHUGTh2jSMvIr6x9Xwd2nE+B5/qFCO/9hDwUDhJsjYRDlADmaBZ7tqehXzBDsfjHSXJzuRHJzPYPPjphBQ7Q==.
+info : Installed Microsoft.Identity.Client 4.73.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identity.client\4.73.1 with content hash NnDLS8QwYqO5ZZecL2oioi1LUqjh5Ewk4bMLzbgiXJbQmZhDLtKwLxL3DpGMlQAJ2G4KgEnvGPKa+OOgffeJbw==.
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/index.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/vulnerability.base.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/2026.05.07.09.09.46/vulnerability.update.json
+info : Package 'Microsoft.EntityFrameworkCore.SqlServer' is compatible with all the specified frameworks in project 'HotelManagement.DAL/HotelManagement.DAL.csproj'.
+info : PackageReference for package 'Microsoft.EntityFrameworkCore.SqlServer' version '10.0.7' added to file 'C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\HotelManagement.DAL.csproj'.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\obj\HotelManagement.DAL.csproj.nuget.g.props.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\obj\HotelManagement.DAL.csproj.nuget.g.targets.
+info : Writing assets file to disk. Path: C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\obj\project.assets.json
+log  : Restored C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\HotelManagement.DAL.csproj (in 6.67 sec).
+info : X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+info : X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+info : Adding PackageReference for package 'Microsoft.EntityFrameworkCore.Design' into project 'HotelManagement.DAL/HotelManagement.DAL.csproj'.
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/index.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/index.json 1065ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/0.0.1-alpha/3.1.3.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/0.0.1-alpha/3.1.3.json 251ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/3.1.4/6.0.0-preview.7.21378.4.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/3.1.4/6.0.0-preview.7.21378.4.json 262ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/6.0.0-rc.1.21452.10/7.0.18.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/6.0.0-rc.1.21452.10/7.0.18.json 267ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/7.0.19/10.0.0-preview.2.25163.8.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/7.0.19/10.0.0-preview.2.25163.8.json 247ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/10.0.0-preview.3.25171.6/11.0.0-preview.3.26207.106.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/10.0.0-preview.3.25171.6/11.0.0-preview.3.26207.106.json 263ms
+info : Restoring packages for C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\HotelManagement.DAL.csproj...
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.design/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.design/index.json 149ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.design/10.0.7/microsoft.entityframeworkcore.design.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.design/10.0.7/microsoft.entityframeworkcore.design.10.0.7.nupkg 28ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.msbuild/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp.workspaces/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/mono.texttemplating/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.msbuild/index.json 46ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.msbuild/5.0.0/microsoft.codeanalysis.workspaces.msbuild.5.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp.workspaces/index.json 68ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp.workspaces/5.0.0/microsoft.codeanalysis.csharp.workspaces.5.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/index.json 83ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/10.0.7/microsoft.extensions.dependencymodel.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/mono.texttemplating/index.json 101ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/index.json 95ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/index.json 101ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.msbuild/5.0.0/microsoft.codeanalysis.workspaces.msbuild.5.0.0.nupkg 67ms
+info :   GET https://api.nuget.org/v3-flatcontainer/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/18.0.2/microsoft.build.framework.18.0.2.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/5.0.0/microsoft.codeanalysis.csharp.5.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp.workspaces/5.0.0/microsoft.codeanalysis.csharp.workspaces.5.0.0.nupkg 57ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencymodel/10.0.7/microsoft.extensions.dependencymodel.10.0.7.nupkg 46ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.csharp/5.0.0/microsoft.codeanalysis.csharp.5.0.0.nupkg 61ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/18.0.2/microsoft.build.framework.18.0.2.nupkg 106ms
+info :   OK https://api.nuget.org/v3-flatcontainer/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg 130ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.analyzers/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/17.11.31/microsoft.build.framework.17.11.31.nupkg
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.visualstudio.solutionpersistence/index.json
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/index.json
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.codedom/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition/index.json 45ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/index.json 64ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition/9.0.0/system.composition.9.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/5.0.0/microsoft.codeanalysis.common.5.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/index.json 69ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/5.0.0/microsoft.codeanalysis.workspaces.common.5.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.options/9.0.0/microsoft.extensions.options.9.0.0.nupkg 56ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.analyzers/index.json 87ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.analyzers/3.11.0/microsoft.codeanalysis.analyzers.3.11.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition/9.0.0/system.composition.9.0.0.nupkg 42ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.build.framework/17.11.31/microsoft.build.framework.17.11.31.nupkg 94ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.common/5.0.0/microsoft.codeanalysis.common.5.0.0.nupkg 48ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/9.0.0/microsoft.extensions.logging.9.0.0.nupkg 109ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection/9.0.0/microsoft.extensions.dependencyinjection.9.0.0.nupkg 123ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.visualstudio.solutionpersistence/index.json 133ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.codedom/index.json 123ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.primitives/9.0.0/microsoft.extensions.primitives.9.0.0.nupkg 129ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging.abstractions/9.0.0/microsoft.extensions.logging.abstractions.9.0.0.nupkg 130ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.visualstudio.solutionpersistence/1.0.52/microsoft.visualstudio.solutionpersistence.1.0.52.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.codedom/6.0.0/system.codedom.6.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.analyzers/3.11.0/microsoft.codeanalysis.analyzers.3.11.0.nupkg 112ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.codeanalysis.workspaces.common/5.0.0/microsoft.codeanalysis.workspaces.common.5.0.0.nupkg 147ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.visualstudio.solutionpersistence/1.0.52/microsoft.visualstudio.solutionpersistence.1.0.52.nupkg 78ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.codedom/6.0.0/system.codedom.6.0.0.nupkg 122ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.attributedmodel/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.convention/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.hosting/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.runtime/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.typedparts/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.convention/index.json 52ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.convention/9.0.0/system.composition.convention.9.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.runtime/index.json 57ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.attributedmodel/index.json 71ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.hosting/index.json 69ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.attributedmodel/9.0.0/system.composition.attributedmodel.9.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.runtime/9.0.0/system.composition.runtime.9.0.0.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.hosting/9.0.0/system.composition.hosting.9.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.convention/9.0.0/system.composition.convention.9.0.0.nupkg 41ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.runtime/9.0.0/system.composition.runtime.9.0.0.nupkg 29ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.attributedmodel/9.0.0/system.composition.attributedmodel.9.0.0.nupkg 68ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.hosting/9.0.0/system.composition.hosting.9.0.0.nupkg 81ms
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.typedparts/index.json 266ms
+info :   GET https://api.nuget.org/v3-flatcontainer/system.composition.typedparts/9.0.0/system.composition.typedparts.9.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.composition.typedparts/9.0.0/system.composition.typedparts.9.0.0.nupkg 35ms
+info : Installed Mono.TextTemplating 3.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\mono.texttemplating\3.0.0 with content hash YqueG52R/Xej4VVbKuRIodjiAhV0HR/XVbLbNrJhCZnzjnSjgMJ/dCdV0akQQxavX6hp/LC6rqLGLcXeQYU7XA==.
+info : Installed Microsoft.EntityFrameworkCore.Design 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.entityframeworkcore.design\10.0.7 with content hash 8UMWkJdfwN/tyEZS6zd0s55zE5zaG4owldh+E91vXitHmux3FTP6Hjhgk6RL9Sv+TdO4FMERQIT6VzBtRrb1AQ==.
+info : Installed System.Composition.Runtime 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.composition.runtime\9.0.0 with content hash w1HOlQY1zsOWYussjFGZCEYF2UZXgvoYnS94NIu2CBnAGMbXFAX8PY8c92KwUItPmowal68jnVLBCzdrWLeEKA==.
+info : Installed Microsoft.Build.Framework 18.0.2 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.build.framework\18.0.2 with content hash sOSb+0J4G/jCBW/YqmRuL0eOMXgfw1KQLdC9TkbvfA5xs7uNm+PBQXJCOzSJGXtZcZrtXozcwxPmUiRUbmd7FA==.
+info : Installed System.Composition 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.composition\9.0.0 with content hash 3Djj70fFTraOarSKmRnmRy/zm4YurICm+kiCtI0dYRqGJnLX6nJ+G3WYuFJ173cAPax/gh96REcbNiVqcrypFQ==.
+info : Installed Microsoft.Extensions.Logging.Abstractions 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.logging.abstractions\9.0.0 with content hash g0UfujELzlLbHoVG8kPKVBaW470Ewi+jnptGS9KUi6jcb+k2StujtK3m26DFSGGwQ/+bVgZfsWqNzlP6YOejvw==.
+info : Installed Microsoft.Extensions.DependencyInjection 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.dependencyinjection\9.0.0 with content hash MCPrg7v3QgNMr0vX4vzRXvkNGgLg8vKWX0nKCWUxu2uPyMsaRgiRc1tHBnbTcfJMhMKj2slE/j2M9oGkd25DNw==.
+info : Installed Microsoft.Extensions.Primitives 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.primitives\9.0.0 with content hash N3qEBzmLMYiASUlKxxFIISP4AiwuPTHF5uCh+2CWSwwzAJiIYx0kBJsS30cp1nvhSySFAVi30jecD307jV+8Kg==.
+info : Installed System.Composition.Convention 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.composition.convention\9.0.0 with content hash +vuqVP6xpi582XIjJi6OCsIxuoTZfR0M7WWufk3uGDeCl3wGW6KnpylUJ3iiXdPByPE0vR5TjJgR6hDLez4FQg==.
+info : Installed System.Composition.AttributedModel 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.composition.attributedmodel\9.0.0 with content hash iri00l/zIX9g4lHMY+Nz0qV1n40+jFYAmgsaiNn16xvt2RDwlqByNG4wgblagnDYxm3YSQQ0jLlC/7Xlk9CzyA==.
+info : Installed Microsoft.CodeAnalysis.CSharp.Workspaces 5.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.codeanalysis.csharp.workspaces\5.0.0 with content hash Al/Q8B+yO8odSqGVpSvrShMFDvlQdIBU//F3E6Rb0YdiLSALE9wh/pvozPNnfmh5HDnvU+mkmSjpz4hQO++jaA==.
+info : Installed Microsoft.Extensions.Logging 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.logging\9.0.0 with content hash crjWyORoug0kK7RSNJBTeSE6VX8IQgLf3nUpTB9m62bPXp/tzbnOsnbe8TXEG0AASNaKZddnpHKw7fET8E++Pg==.
+info : Installed Microsoft.VisualStudio.SolutionPersistence 1.0.52 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.visualstudio.solutionpersistence\1.0.52 with content hash oNv2JtYXhpdJrX63nibx1JT3uCESOBQ1LAk7Dtz/sr0+laW0KRM6eKp4CZ3MHDR2siIkKsY8MmUkeP5DKkQQ5w==.
+info : Installed System.Composition.Hosting 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.composition.hosting\9.0.0 with content hash OFqSeFeJYr7kHxDfaViGM1ymk7d4JxK//VSoNF9Ux0gpqkLsauDZpu89kTHHNdCWfSljbFcvAafGyBoY094btQ==.
+info : Installed System.Composition.TypedParts 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.composition.typedparts\9.0.0 with content hash aRZlojCCGEHDKqh43jaDgaVpYETsgd7Nx4g1zwLKMtv4iTo0627715ajEFNpEEBTgLmvZuv8K0EVxc3sM4NWJA==.
+info : Installed Microsoft.Extensions.DependencyModel 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.dependencymodel\10.0.7 with content hash gCglFg/9Chu3lyJNytRuQAYM3mXQKNs1i01Cz2bc545QaHQ+LbBb4O5UCfu968Gro3ZVSOZ/ktilmPcaUSGSZA==.
+info : Installed Microsoft.Build.Framework 17.11.31 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.build.framework\17.11.31 with content hash 9bGe48OGm0EO69HHpex0shnNLH7ZEB4Nwj7mofeLUoQcl9NeuIJe9F9dawKJF3E0bf5qPTwH/v3eyCXgMD4HuA==.
+info : Installed Microsoft.Extensions.Options 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.options\9.0.0 with content hash y2146b3jrPI3Q0lokKXdKLpmXqakYbDIPDV6r3M8SqvSf45WwOTzkyfDpxnZXJsJQEpAsAqjUq5Pu8RCJMjubg==.
+info : Installed Microsoft.CodeAnalysis.Workspaces.MSBuild 5.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.codeanalysis.workspaces.msbuild\5.0.0 with content hash /G+LVoAGMz6Ae8nm+PGLxSw+F5RjYx/J7irbTO5uKAPw1bxHyQJLc/YOnpDxt+EpPtYxvC9wvBsg/kETZp1F9Q==.
+info : Installed Microsoft.CodeAnalysis.Common 5.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.codeanalysis.common\5.0.0 with content hash ZXRAdvH6GiDeHRyd3q/km8Z44RoM6FBWHd+gen/la81mVnAdHTEsEkO5J0TCNXBymAcx5UYKt5TvgKBhaLJEow==.
+info : Installed Microsoft.CodeAnalysis.Workspaces.Common 5.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.codeanalysis.workspaces.common\5.0.0 with content hash ZbUmIvT6lqTNKiv06Jl5wf0MTMi1vQ1oH7ou4CLcs2C/no/L7EhP3T8y3XXvn9VbqMcJaJnEsNA1jwYUMgc5jg==.
+info : Installed Microsoft.CodeAnalysis.CSharp 5.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.codeanalysis.csharp\5.0.0 with content hash 5DSyJ9bk+ATuDy7fp2Zt0mJStDVKbBoiz1DyfAwSa+k4H4IwykAUcV3URelw5b8/iVbfSaOwkwmPUZH6opZKCw==.
+info : Installed System.CodeDom 6.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.codedom\6.0.0 with content hash CPc6tWO1LAer3IzfZufDBRL+UZQcj5uS207NHALQzP84Vp/z6wF0Aa0YZImOQY8iStY0A2zI/e3ihKNPfUm8XA==.
+info : Installed Microsoft.CodeAnalysis.Analyzers 3.11.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.codeanalysis.analyzers\3.11.0 with content hash v/EW3UE8/lbEYHoC2Qq7AR/DnmvpgdtAMndfQNmpuIMx/Mto8L5JnuCfdBYtgvalQOtfNCnxFejxuRrryvUTsg==.
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/index.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/vulnerability.base.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/2026.05.07.09.09.46/vulnerability.update.json
+info : Package 'Microsoft.EntityFrameworkCore.Design' is compatible with all the specified frameworks in project 'HotelManagement.DAL/HotelManagement.DAL.csproj'.
+info : PackageReference for package 'Microsoft.EntityFrameworkCore.Design' version '10.0.7' added to file 'C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\HotelManagement.DAL.csproj'.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\obj\HotelManagement.DAL.csproj.nuget.g.props.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\obj\HotelManagement.DAL.csproj.nuget.g.targets.
+info : Writing assets file to disk. Path: C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\obj\project.assets.json
+log  : Restored C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\HotelManagement.DAL.csproj (in 8.49 sec).
+info : X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+info : X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+info : Adding PackageReference for package 'Microsoft.EntityFrameworkCore.Tools' into project 'HotelManagement.DAL/HotelManagement.DAL.csproj'.
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/index.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/index.json 1548ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/1.0.0-msbuild1-final/3.1.0.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/1.0.0-msbuild1-final/3.1.0.json 253ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/3.1.1/6.0.0-preview.4.21253.1.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/3.1.1/6.0.0-preview.4.21253.1.json 275ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/6.0.0-preview.5.21301.9/7.0.15.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/6.0.0-preview.5.21301.9/7.0.15.json 259ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/7.0.16/9.0.14.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/7.0.16/9.0.14.json 707ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/9.0.15/11.0.0-preview.3.26207.106.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.tools/page/9.0.15/11.0.0-preview.3.26207.106.json 293ms
+info : Restoring packages for C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\HotelManagement.DAL.csproj...
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.tools/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.tools/index.json 149ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.tools/10.0.7/microsoft.entityframeworkcore.tools.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.entityframeworkcore.tools/10.0.7/microsoft.entityframeworkcore.tools.10.0.7.nupkg 42ms
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.dependencyinjection.abstractions/9.0.0/microsoft.extensions.dependencyinjection.abstractions.9.0.0.nupkg 77ms
+info : Installed Microsoft.EntityFrameworkCore.Tools 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.entityframeworkcore.tools\10.0.7 with content hash Ui7+Y+E2KwwQvRlbOclMP8HAGXrQFQcOu3NLpKlYdmd5pbhlueyLhnW3SBv1WuXALKESGHR3lMqeANNnl/02Bw==.
+info : Installed Microsoft.Extensions.DependencyInjection.Abstractions 9.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.dependencyinjection.abstractions\9.0.0 with content hash +6f2qv2a3dLwd5w6JanPIPs47CxRbnk+ZocMJUhv9NxP88VlOcJYZs9jY+MYSjxvady08bUZn6qgiNh7DadGgg==.
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/index.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/vulnerability.base.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/2026.05.07.09.09.46/vulnerability.update.json
+info : Package 'Microsoft.EntityFrameworkCore.Tools' is compatible with all the specified frameworks in project 'HotelManagement.DAL/HotelManagement.DAL.csproj'.
+info : PackageReference for package 'Microsoft.EntityFrameworkCore.Tools' version '10.0.7' added to file 'C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\HotelManagement.DAL.csproj'.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\obj\HotelManagement.DAL.csproj.nuget.g.props.
+info : Writing assets file to disk. Path: C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\obj\project.assets.json
+log  : Restored C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.DAL\HotelManagement.DAL.csproj (in 1.31 sec).
+info : X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+info : X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+info : Adding PackageReference for package 'Microsoft.AspNetCore.Authentication.JwtBearer' into project 'HotelManagement.API/HotelManagement.API.csproj'.
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/index.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/index.json 390ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/0.0.1-alpha/3.1.15.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/0.0.1-alpha/3.1.15.json 260ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/3.1.16/6.0.9.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/3.1.16/6.0.9.json 256ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/6.0.10/8.0.0.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/6.0.10/8.0.0.json 285ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/8.0.1/10.0.4.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/8.0.1/10.0.4.json 256ms
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/10.0.5/11.0.0-preview.3.26207.106.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/microsoft.aspnetcore.authentication.jwtbearer/page/10.0.5/11.0.0-preview.3.26207.106.json 253ms
+info : Restoring packages for C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\HotelManagement.API.csproj...
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.authentication.jwtbearer/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.authentication.jwtbearer/index.json 322ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.authentication.jwtbearer/10.0.7/microsoft.aspnetcore.authentication.jwtbearer.10.0.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.authentication.jwtbearer/10.0.7/microsoft.aspnetcore.authentication.jwtbearer.10.0.7.nupkg 46ms
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols.openidconnect/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols.openidconnect/8.0.1/microsoft.identitymodel.protocols.openidconnect.8.0.1.nupkg 169ms
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols/index.json
+info :   CACHE https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg
+info :   GET https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.protocols/8.0.1/microsoft.identitymodel.protocols.8.0.1.nupkg 58ms
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.tokens/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.tokens/8.0.1/microsoft.identitymodel.tokens.8.0.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/system.identitymodel.tokens.jwt/8.0.1/system.identitymodel.tokens.jwt.8.0.1.nupkg 151ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.tokens/8.0.1/microsoft.identitymodel.tokens.8.0.1.nupkg 106ms
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.jsonwebtokens/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.jsonwebtokens/8.0.1/microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.jsonwebtokens/8.0.1/microsoft.identitymodel.jsonwebtokens.8.0.1.nupkg 83ms
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.logging/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.logging/8.0.1/microsoft.identitymodel.logging.8.0.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.logging/8.0.1/microsoft.identitymodel.logging.8.0.1.nupkg 58ms
+info :   CACHE https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.abstractions/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.abstractions/8.0.1/microsoft.identitymodel.abstractions.8.0.1.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.identitymodel.abstractions/8.0.1/microsoft.identitymodel.abstractions.8.0.1.nupkg 41ms
+info : Installed Microsoft.AspNetCore.Authentication.JwtBearer 10.0.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.aspnetcore.authentication.jwtbearer\10.0.7 with content hash g8klpd7OFJfJOq1EJKcBO8C8I8Dp0QUWoKDPUvvJYe+xunVyBHq6YxfF2CAc6+rkniV25iaWl+6RK87c25n4lA==.
+info : Installed Microsoft.IdentityModel.Abstractions 8.0.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.abstractions\8.0.1 with content hash OtlIWcyX01olfdevPKZdIPfBEvbcioDyBiE/Z2lHsopsMD7twcKtlN9kMevHmI5IIPhFpfwCIiR6qHQz1WHUIw==.
+info : Installed Microsoft.IdentityModel.JsonWebTokens 8.0.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.jsonwebtokens\8.0.1 with content hash s6++gF9x0rQApQzOBbSyp4jUaAlwm+DroKfL8gdOHxs83k8SJfUXhuc46rDB3rNXBQ1MVRxqKUrqFhO/M0E97g==.
+info : Installed Microsoft.IdentityModel.Logging 8.0.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.logging\8.0.1 with content hash UCPF2exZqBXe7v/6sGNiM6zCQOUXXQ9+v5VTb9gPB8ZSUPnX53BxlN78v2jsbIvK9Dq4GovQxo23x8JgWvm/Qg==.
+info : Installed Microsoft.IdentityModel.Protocols.OpenIdConnect 8.0.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.protocols.openidconnect\8.0.1 with content hash AQDbfpL+yzuuGhO/mQhKNsp44pm5Jv8/BI4KiFXR7beVGZoSH35zMV3PrmcfvSTsyI6qrcR898NzUauD6SRigg==.
+info : Installed Microsoft.IdentityModel.Protocols 8.0.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.protocols\8.0.1 with content hash uA2vpKqU3I2mBBEaeJAWPTjT9v1TZrGWKdgK6G5qJd03CLx83kdiqO9cmiK8/n1erkHzFBwU/RphP83aAe3i3g==.
+info : Installed Microsoft.IdentityModel.Tokens 8.0.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.identitymodel.tokens\8.0.1 with content hash kDimB6Dkd3nkW2oZPDkMkVHfQt3IDqO5gL0oa8WVy3OP4uE8Ij+8TXnqg9TOd9ufjsY3IDiGz7pCUbnfL18tjg==.
+info : Installed System.IdentityModel.Tokens.Jwt 8.0.1 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\system.identitymodel.tokens.jwt\8.0.1 with content hash GJw3bYkWpOgvN3tJo5X4lYUeIFA2HD293FPUhKmp7qxS+g5ywAb34Dnd3cDAFLkcMohy5XTpoaZ4uAHuw0uSPQ==.
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/index.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/vulnerability.base.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/2026.05.07.09.09.46/vulnerability.update.json
+info : Package 'Microsoft.AspNetCore.Authentication.JwtBearer' is compatible with all the specified frameworks in project 'HotelManagement.API/HotelManagement.API.csproj'.
+info : PackageReference for package 'Microsoft.AspNetCore.Authentication.JwtBearer' version '10.0.7' added to file 'C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\HotelManagement.API.csproj'.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\obj\HotelManagement.API.csproj.nuget.g.props.
+info : Writing assets file to disk. Path: C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\obj\project.assets.json
+log  : Restored C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\HotelManagement.API.csproj (in 2.15 sec).
+info : X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+info : X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+info : Adding PackageReference for package 'Swashbuckle.AspNetCore' into project 'HotelManagement.API/HotelManagement.API.csproj'.
+info :   GET https://api.nuget.org/v3/registration5-gz-semver2/swashbuckle.aspnetcore/index.json
+info :   OK https://api.nuget.org/v3/registration5-gz-semver2/swashbuckle.aspnetcore/index.json 407ms
+info : Restoring packages for C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\HotelManagement.API.csproj...
+info :   GET https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore/index.json 115ms
+info :   GET https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore/10.1.7/swashbuckle.aspnetcore.10.1.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore/10.1.7/swashbuckle.aspnetcore.10.1.7.nupkg 67ms
+info :   GET https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swagger/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggergen/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggerui/index.json
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.apidescription.server/index.json
+info :   OK https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swagger/index.json 49ms
+info :   GET https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swagger/10.1.7/swashbuckle.aspnetcore.swagger.10.1.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.apidescription.server/index.json 57ms
+info :   GET https://api.nuget.org/v3-flatcontainer/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggerui/index.json 66ms
+info :   GET https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggerui/10.1.7/swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggergen/index.json 74ms
+info :   GET https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggergen/10.1.7/swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg
+info :   OK https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggergen/10.1.7/swashbuckle.aspnetcore.swaggergen.10.1.7.nupkg 50ms
+info :   OK https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swagger/10.1.7/swashbuckle.aspnetcore.swagger.10.1.7.nupkg 85ms
+info :   OK https://api.nuget.org/v3-flatcontainer/microsoft.extensions.apidescription.server/10.0.0/microsoft.extensions.apidescription.server.10.0.0.nupkg 77ms
+info :   OK https://api.nuget.org/v3-flatcontainer/swashbuckle.aspnetcore.swaggerui/10.1.7/swashbuckle.aspnetcore.swaggerui.10.1.7.nupkg 294ms
+info : Installed Swashbuckle.AspNetCore 10.1.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\swashbuckle.aspnetcore\10.1.7 with content hash vgef8DPT411JU5JjHiDbr0WOxsIVuAvegPGtqmm4Na4JRl/264dfBJcGkiPHsAr5P+Vda+qN1rZKRtBl1rF9aA==.
+info : Installed Swashbuckle.AspNetCore.Swagger 10.1.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\swashbuckle.aspnetcore.swagger\10.1.7 with content hash EjLibt/d/QuRv170GoihTbcPUpgzSFm2WKHhnGJFZQ03JYzfuitsM79azaAR8NBwRunU7yScSX6HRE5JUlrEMQ==.
+info : Installed Swashbuckle.AspNetCore.SwaggerGen 10.1.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\swashbuckle.aspnetcore.swaggergen\10.1.7 with content hash PuubO9BjvNn6U3D9kLpuWKY1JtziWw7SsGBq0age1E50uQjQ8Fzl8s0EwzrLfANqYJNgDnJi9l7N1QxcGVB2Zw==.
+info : Installed Swashbuckle.AspNetCore.SwaggerUI 10.1.7 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\swashbuckle.aspnetcore.swaggerui\10.1.7 with content hash iJo3ODyUb/M8Vm8AH1r9y9iAba0w95xsCn3zFVl96ISRHbTDWxi+l7oFVCZqUEdjd97B8VMDPnMliWAdomR8uw==.
+info : Installed Microsoft.Extensions.ApiDescription.Server 10.0.0 from https://api.nuget.org/v3/index.json to C:\Users\DELL\.nuget\packages\microsoft.extensions.apidescription.server\10.0.0 with content hash NCWCGiwRwje8773yzPQhvucYnnfeR+ZoB1VRIrIMp4uaeUNw7jvEPHij3HIbwCDuNCrNcphA00KSAR9yD9qmbg==.
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/index.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/vulnerability.base.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/2026.05.07.09.09.46/vulnerability.update.json
+info : Package 'Swashbuckle.AspNetCore' is compatible with all the specified frameworks in project 'HotelManagement.API/HotelManagement.API.csproj'.
+info : PackageReference for package 'Swashbuckle.AspNetCore' version '10.1.7' added to file 'C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\HotelManagement.API.csproj'.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\obj\HotelManagement.API.csproj.nuget.g.props.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\obj\HotelManagement.API.csproj.nuget.g.targets.
+info : Writing assets file to disk. Path: C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\obj\project.assets.json
+log  : Restored C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\HotelManagement.API.csproj (in 1.85 sec).
+info : X.509 certificate chain validation will use the default trust store selected by .NET for code signing.
+info : X.509 certificate chain validation will use the default trust store selected by .NET for timestamping.
+info : Adding PackageReference for package 'Microsoft.EntityFrameworkCore.Design' into project 'HotelManagement.API/HotelManagement.API.csproj'.
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/index.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/0.0.1-alpha/3.1.3.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/3.1.4/6.0.0-preview.7.21378.4.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/6.0.0-rc.1.21452.10/7.0.18.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/7.0.19/10.0.0-preview.2.25163.8.json
+info :   CACHE https://api.nuget.org/v3/registration5-gz-semver2/microsoft.entityframeworkcore.design/page/10.0.0-preview.3.25171.6/11.0.0-preview.3.26207.106.json
+info : Restoring packages for C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\HotelManagement.API.csproj...
+info :   CACHE https://api.nuget.org/v3/vulnerabilities/index.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/vulnerability.base.json
+info :   CACHE https://api.nuget.org/v3-vulnerabilities/2026.05.07.09.09.46/2026.05.07.09.09.46/vulnerability.update.json
+info : Package 'Microsoft.EntityFrameworkCore.Design' is compatible with all the specified frameworks in project 'HotelManagement.API/HotelManagement.API.csproj'.
+info : PackageReference for package 'Microsoft.EntityFrameworkCore.Design' version '10.0.7' added to file 'C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\HotelManagement.API.csproj'.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\obj\HotelManagement.API.csproj.nuget.g.props.
+info : Generating MSBuild file C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\obj\HotelManagement.API.csproj.nuget.g.targets.
+info : Writing assets file to disk. Path: C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\obj\project.assets.json
+log  : Restored C:\Users\DELL\.cursor\projects\C-Users-DELL-AppData-Local-Temp-3e245cf2-ff93-4869-b058-8f5bda252930\HotelManagement.API\HotelManagement.API.csproj (in 316 ms).
+
+---
+exit_code: 0
+elapsed_ms: 50071
+ended_at: 2026-05-07T10:40:54.365Z
+---
