@@ -30,7 +30,7 @@ public class RoomTypeService(IRoomTypeRepository roomTypeRepository) : IRoomType
 
     public async Task<RoomTypeDto> CreateAsync(RoomTypeCreateDto dto)
     {
-        RoomTypeCreateDtoValidator.Validate(dto);
+        RoomTypeCreateDtoValidator.ValidateDto(dto);
         var roomType = new RoomType
         {
             TypeName = dto.TypeName,
@@ -44,7 +44,7 @@ public class RoomTypeService(IRoomTypeRepository roomTypeRepository) : IRoomType
 
     public async Task<bool> UpdateAsync(int id, RoomTypeUpdateDto dto)
     {
-        RoomTypeUpdateDtoValidator.Validate(dto);
+        RoomTypeUpdateDtoValidator.ValidateDto(dto);
         var existing = await roomTypeRepository.GetByIdAsync(id);
         if (existing is null) return false;
         existing.TypeName = dto.TypeName;

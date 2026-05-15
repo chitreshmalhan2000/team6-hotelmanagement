@@ -1,26 +1,50 @@
-using HotelManagement.API.Modules.RoomTypeModule.DTOs;
-
 using FluentValidation;
-
+using HotelManagement.API.Modules.RoomTypeModule.DTOs;
 namespace HotelManagement.API.Modules.RoomTypeModule.Validators;
 
-public static class RoomTypeUpdateDtoValidator
+public class RoomTypeUpdateDtoValidator : AbstractValidator<RoomTypeUpdateDto>
 {
-    public static void Validate(RoomTypeUpdateDto dto)
+    public RoomTypeUpdateDtoValidator()
     {
-        if (string.IsNullOrWhiteSpace(dto.TypeName))
-            throw new ValidationException("Room type name is required.");
+        RuleFor(x => x)
+            .NotNull()
+            .WithMessage("Room type details are required.");
 
-        if (dto.TypeName.Length > 255)
-            throw new ValidationException("Room type name cannot exceed 255 characters.");
+        RuleFor(x => x.TypeName)
+            .Cascade(CascadeMode.Stop)
+            .NotEmpty()
+            .WithMessage("Room type name is required.")
+            .MinimumLength(2)
+            .WithMessage("Room type name must be at least 2 characters.")
+            .MaximumLength(255)
+            .WithMessage("Room type name cannot exceed 255 characters.");
 
-        if (dto.Description?.Length > 2000)
-            throw new ValidationException("Description cannot exceed 2000 characters.");
+        RuleFor(x => x.Description)
+            .MaximumLength(2000)
+            .WithMessage("Description cannot exceed 2000 characters.");
 
-        if (dto.MaxOccupancy.HasValue && dto.MaxOccupancy < 1)
-            throw new ValidationException("Max occupancy must be at least 1.");
+        RuleFor(x => x.MaxOccupancy)
+            .InclusiveBetween(1, 20)
+            .When(x => x.MaxOccupancy.HasValue)
+            .WithMessage("Max occupancy must be between 1 and 20.");
 
-        if (dto.PricePerNight.HasValue && dto.PricePerNight <= 0)
-            throw new ValidationException("Price per night must be greater than 0.");
+        RuleFor(x => x.PricePerNight)
+            .InclusiveBetween(0.01m, 100000m)
+            .When(x => x.PricePerNight.HasValue)
+            .WithMessage("Price per night must be between 0.01 and 100000.");
+    }
+
+    public static void ValidateDto(RoomTypeUpdateDto dto)
+    {
+        Normalize(dto);
+        new RoomTypeUpdateDtoValidator().ValidateAndThrow(dto);
+    }
+
+    private static void Normalize(RoomTypeUpdateDto dto)
+    {
+        if (dto is null) return;
+
+        dto.TypeName = dto.TypeName?.Trim() ?? string.Empty;
+        dto.Description = string.IsNullOrWhiteSpace(dto.Description) ? null : dto.Description.Trim();
     }
 }

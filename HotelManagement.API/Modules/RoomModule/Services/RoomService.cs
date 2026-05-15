@@ -46,7 +46,7 @@ public class RoomService(IRoomRepository roomRepository) : IRoomService
 
     public async Task<RoomDto> CreateAsync(RoomCreateDto dto)
     {
-        RoomCreateDtoValidator.Validate(dto);
+        RoomCreateDtoValidator.ValidateDto(dto);
         var room = new Room
         {
             RoomNumber = dto.RoomNumber,
@@ -59,7 +59,7 @@ public class RoomService(IRoomRepository roomRepository) : IRoomService
 
     public async Task<bool> UpdateAsync(int id, RoomUpdateDto dto)
     {
-        RoomUpdateDtoValidator.Validate(dto);
+        RoomUpdateDtoValidator.ValidateDto(dto);
         var existing = await roomRepository.GetByIdAsync(id);
         if (existing is null) return false;
         existing.RoomNumber = dto.RoomNumber;

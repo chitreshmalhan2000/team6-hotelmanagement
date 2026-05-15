@@ -1,20 +1,30 @@
-using HotelManagement.API.Modules.RoomModule.DTOs;
-
 using FluentValidation;
+using HotelManagement.API.Modules.RoomModule.DTOs;
 
 namespace HotelManagement.API.Modules.RoomModule.Validators;
 
-public static class RoomUpdateDtoValidator
+
+public class RoomUpdateDtoValidator : AbstractValidator<RoomUpdateDto>
 {
-    public static void Validate(RoomUpdateDto dto)
+    public RoomUpdateDtoValidator()
     {
-        if (dto.RoomNumber <= 0)
-            throw new ValidationException("Room number must be greater than 0.");
+        RuleFor(x => x)
+            .NotNull()
+            .WithMessage("Room details are required.");
 
-        if (dto.RoomNumber > 9999)
-            throw new ValidationException("Room number cannot exceed 9999.");
+        RuleFor(x => x.RoomNumber)
+            .GreaterThan(0)
+            .WithMessage("Room number must be greater than 0.")
+            .LessThanOrEqualTo(9999)
+            .WithMessage("Room number cannot exceed 9999.");
 
-        if (dto.RoomTypeId <= 0)
-            throw new ValidationException("A valid room type ID is required.");
+        RuleFor(x => x.RoomTypeId)
+            .GreaterThan(0)
+            .WithMessage("A valid room type ID is required.");
+    }
+
+    public static void ValidateDto(RoomUpdateDto dto)
+    {
+        new RoomUpdateDtoValidator().ValidateAndThrow(dto);
     }
 }
